@@ -1,0 +1,64 @@
+body {
+    background: #012A4A;
+    }
+    
+    .wrapper {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(45deg) rotateZ(45deg);
+    transform-style: preserve-3d;
+    
+    }
+    
+    .shape {
+    position: relative;
+    background: white;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: #ef476f;
+    border: 2px solid #ffb703;
+    box-shadow: 200px 200px 20px rgba(255, 249, 214, 0.1);
+    animation: bump 1.5s ease-in-out infinite;
+    }
+    @media screen and (max-width: 992px) {
+        .shape {
+            width: 20px;
+            height: 20px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .shape {
+            width: 20px;
+            height: 20px;
+        }
+      }
+      @media screen and (max-width: 560px) {
+        .shape {
+            width: 15px;
+            height: 15px;
+        }
+      }
+      @media screen and (max-width: 450px) {
+        .shape {
+            width: 8px;
+            height: 8px;
+        }
+      }
+      @media screen and (max-height: 500px) and (min-width: 992px) {
+        .shape {
+            width: 30px;
+            height: 30px;
+        }
+      }
+    
+    @keyframes bump {
+    50% {
+    transform: translateZ(24px);
+    }
+    }

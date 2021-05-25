@@ -1,0 +1,83 @@
+<html lang="en">
+	<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+	<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+	<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+	<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+		<meta name="apple-mobile-web-app-title" content="CodePen">
+		<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+		<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+		<title>Portfolio Pop</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="pop.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+	</head>
+	<body translate="no">
+		<div class="blog-slider swiper-container-fade swiper-container-horizontal">
+			<div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;">
+				<div class="blog-slider__item swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 750px; transition-duration: 0ms; opacity: 1; transform: translate3d(-750px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/MIPS1.png" alt="">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Hardware Architecture Simulation</span>
+						<div class="blog-slider__title">Project Overview</div>
+						<div class="blog-slider__text">MIPS is a instruction set architecture.
+							I made a simulator which takes a file containing MIPS instructions and executes them.
+							This was made in C++.
+							<div class="mobiledisable">
+								The main goal of this was to get a better understanding of hardware architecture and instruction sets.
+								Later parts of the project was focussed on hardware optimization.
+								Pipelining, Parallel programming, cache and DRAM implementation, forwarding/reordering of instructions,
+								lookaheads etc were implemented one after another to make the simulator as close to real processors as possible.
+							</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+				<div class="blog-slider__item swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 750px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1500px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/MIPS2.png" alt="">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Place- College</span>
+						<div class="blog-slider__title">Time of Work</div>
+						<div class="blog-slider__text">This was a month long project. Time was almost equally distributed among all the features implemented.
+							<div class="mobiledisable">
+								Reordering/forwarding and improving DRAM throughput was the most time consuming process.
+								Another time consuming process was implementing the basic MIPS simulator to handle all possible instructions.
+							</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+				<div class="blog-slider__item swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 750px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2250px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/MIPS3.png" alt="">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Major Challenge: Improving Throughput and Pipelining</span>
+						<div class="blog-slider__title">Resources Used and Skills Learnt</div>
+						<div class="blog-slider__text">Some MIPS documentation and Qtspim was used to get familiar with the instruction set.
+							<div class="mobiledisable">
+								Implementation into a simulator was done without any external help.
+								Skill set acquired was a better understanding og how CPUs work, how they are designed and what tradeoffs are considered.
+								Extensive knowledge of cache and DRAM was acquired through this project.
+							</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+		<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+		<script src="pop.js" id="rendered-js"></script>
+	</body>
+</html>

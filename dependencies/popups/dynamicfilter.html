@@ -1,0 +1,81 @@
+<html lang="en">
+	<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+	<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+	<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+	<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+		<meta name="apple-mobile-web-app-title" content="CodePen">
+		<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+		<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+		<title>Portfolio Pop</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="pop.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+	</head>
+	<body translate="no">
+		<div class="blog-slider swiper-container-fade swiper-container-horizontal">
+			<div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;">
+				<div class="blog-slider__item swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 750px; transition-duration: 0ms; opacity: 1; transform: translate3d(-750px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/DFStorefront.png" alt="DFS">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Android Application</span>
+						<div class="blog-slider__title">Project Overview</div>
+						<div class="blog-slider__text">Fascinated by the world of smartphone and apps, I finally decided to make my own Android Application during my semester holidays after third
+							semester. At first app devolopement was totally new to me, so it took me sometime to grasp and link all the dots.
+							<div class="mobiledisable">I downloaded the Android Studio IDE and started building the application.
+							Before making the final app, I made two- three test application to understand the concept of ACTIVITY, MANIFEST, LAYOUT etc in details.
+							For testing purposes I mostly used USB Debuging than Android AVD manager.
+							The main functionality of the application deveploped is to apply various filters on images.
+							After building it, the major work was to publish it on Google Play Store.
+							Now you can install the application on your mobile from Google Play Store using the link provided on previous page.
+							</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+				<div class="blog-slider__item swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 750px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1500px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/DF1.PNG" alt="DF1">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Place - Hometown</span>
+						<div class="blog-slider__title">Time of Work</div>
+						<div class="blog-slider__text">It took me approximately a month to deveplop the application.
+							The application went live on Play Store on 21 March 2021.
+							<div class="mobiledisable">The main time consuming process was to make it more user friendly.
+							It was tested extensively on various mobile phones including 8 year old phones before launching.</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+				<div class="blog-slider__item swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 750px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2250px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/DF2.PNG" alt="DF2">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Major Challenge: Make it available for even older Android APIs</span>
+						<div class="blog-slider__title">Resources Used and Skills Learnt</div>
+						<div class="blog-slider__text">I usually took help of the Google Android Documentation, but GeeksforGeek, TutorialsPoint,
+							Stack Overflow was also very helpful to me in developing the application.
+							<div class="mobiledisable">I also used some libraries to add some features on the app.
+							API was a major challenge, that is to make it available on most of the devices.
+							I dedided to built it for devices with OS JellyBean or above.</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+		<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+		<script src="pop.js" id="rendered-js"></script>
+	</body>
+</html>

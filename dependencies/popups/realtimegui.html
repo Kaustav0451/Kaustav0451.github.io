@@ -1,0 +1,79 @@
+<html lang="en">
+	<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+	<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+	<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+	<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+		<meta name="apple-mobile-web-app-title" content="CodePen">
+		<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+		<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+		<title>Portfolio Pop</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="pop.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+	</head>
+	<body translate="no">
+		<div class="blog-slider swiper-container-fade swiper-container-horizontal">
+			<div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;">
+				<div class="blog-slider__item swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 750px; transition-duration: 0ms; opacity: 1; transform: translate3d(-750px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/RG1.png" alt="">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">RealTime GUI</span>
+						<div class="blog-slider__title">Project Overview</div>
+						<div class="blog-slider__text">As a realtime program, I made it to monitor different parts of an electric vehicle.
+							It was developed using Visual Studio IDE and was written on C# language.
+							<div class="mobiledisable">The program uses net connection and firestore to make connection between it and the vehicle.
+							Vehicle feeds the data into a firestore project and the program fetches it from there using HTTPS GET POST methods.
+							It refreshes itself every 10 seconds to update the new data. Graphs, Gauges chart etc are used to
+							make the program more user friendly and readable.
+							The program can be used for any such realtime remote data monitoring or internet of thing project purposes.</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+				<div class="blog-slider__item swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 750px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1500px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/RG2.png" alt="">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Place - Hometown and College</span>
+						<div class="blog-slider__title">Time Duration</div>
+						<div class="blog-slider__text">It took me approximately two weeks to learn WPF and Firebase and a few of its libraries and develop it.
+							<div class="mobiledisable">
+								The hardware side however required a huge amount of time as I had to learn how modules work and run it throuugh automated PCBs.
+							</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+				<div class="blog-slider__item swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 750px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2250px, 0px, 0px);">
+					<div class="blog-slider__img">
+						<img src="photos/RG3.png" alt="">
+					</div>
+					<div class="blog-slider__content">
+						<span class="blog-slider__code">Major Challenge: Linking software and the hardware.</span>
+						<div class="blog-slider__title">Resources Used and Skills Learnt</div>
+						<div class="blog-slider__text">The hardware side required a extensive research on LTE module.
+							<div class="mobiledisable">WPF was used to build the software.
+							I used XAML to design the user interface. C# was used for developing the program.
+							Microsoft documantation was used as a reference.
+							Youtube tutorials also helped me a lot in overcoming various design challenges.</div>
+						</div>
+						<a href="javascript:history.back()" class="blog-slider__button">Go Back</a>
+					</div>
+				</div>
+			</div>
+			<div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+		</div>
+		<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+		<script src="pop.js" id="rendered-js"></script>
+	</body>
+</html>

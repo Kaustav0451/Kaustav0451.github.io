@@ -1,0 +1,101 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="aboutmestyle.css"/> 
+        <title>Slider</title>
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="slider">
+
+                <div class="box1 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Game Developer</h1>
+                        <p style="font-size: large;color: white;">
+                            Have experience in Unreal Engine.
+                            Other softwares used while working in Unreal Engine include Blender, Sony Vegas, Photoshop, Mixamo etc.
+                        </p>
+                        <button onclick="javascript:window.open('https://youtu.be/rKnEAad5QU8', '_blank');">Check Now</button>
+                    </div>
+                    <div class="illustration unreal"><div class="inner"></div></div>
+                    
+                </div>
+                                
+                
+                <div class="box2 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Android Developer</h1>
+                        <p style="font-size: large;color: white;">
+                            Have experience in Android Studio in both frontend and backend.
+                            Also published an app on the play store.
+                        </p>
+                        <button onclick="javascript:window.open('https://play.google.com/store/apps/details?id=com.future.dynamicfilter', '_blank');">Check Now</button>
+                    </div>
+
+                    <div class="illustration android"><div class="inner"></div></div>
+                </div>
+                                
+                <div class="box3 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Web Designer</h1>
+                        <p style="font-size: large;color: white;">
+                            Worked on basic frontend development using html, css and javascript.
+                            This is an example site made by me and a friend.
+                        </p>
+                        <button onclick="javascript:window.open('https://arkamandal2001.github.io/', '_blank');">Check Now</button>
+                    </div>
+
+                    <div class="illustration web"><div class="inner"></div></div>
+                </div>
+                                
+                <div class="box4 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Software Developer</h1>
+                        <p style="font-size: large;color: white;">
+                            Worked in Visual Studio to develop basic softwares for windows.
+                            These include some 2D games, a live telemetry system, some simulators etc.
+                        </p>
+                        <button onclick="javascript:window.open('Traffic_Estimation_Report.pdf', '_blank');">Check Now</button>
+                    </div>
+
+                    <div class="illustration software"><div class="inner"></div></div>
+                </div>
+                                
+                <div class="box5 box">
+                    <div class="bg"></div>
+                    <div class="details">
+                        <h1>Database Manager</h1>
+                        <p style="font-size: large;color: white;">
+                            Have experince working in both SQL and NoSQL databases. SQL database includes MySQL.
+                            NoSQL database includes Firebase RealTime Database and Firestore. Also experienced in Excel, Access etc. 
+                        </p>
+                        <button style="visibility: hidden;" onclick="javascript:window.open('https://www.youtube.com/watch?v=60fepRRTTWc', '_blank');">Check Now</button>
+                    </div>
+
+                    <div class="illustration database"><div class="inner"></div></div>
+                </div>
+                                
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+            <div class="trail">
+                    <div class="box1 active">Game Developer</div>
+                    <div class="box2">Android Developer</div>
+                    <div class="box3">Web Designer</div>
+                    <div class="box4">Software Developer</div>
+                    <div class="box5">Database Engineer</div>
+            </div>
+        </div>   
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+        <script src="aboutmescript.js"></script>
+    </body>
+</html>
